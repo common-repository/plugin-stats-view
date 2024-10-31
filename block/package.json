@@ -1,0 +1,19 @@
+{
+  "name": "plugin-stats-view",
+  "version": "1.0.5",
+  "description": "Plugin Stats View",
+  "main": "index.js",
+  "scripts": {
+		"build": "wp-scripts build --webpack-src-dir=src --webpack-copy-php",
+		"start": "wp-scripts start --webpack-src-dir=src --webpack-copy-php"
+  },
+  "author": "Katsushi Kawamori",
+  "license": "GPL-2.0-or-later",
+  "dependencies": {
+    "@wordpress/i18n": "^4.57.0",
+    "@wordpress/server-side-render": "^4.34.0"
+  },
+  "devDependencies": {
+    "@wordpress/scripts": "27.8.0"
+  }
+}

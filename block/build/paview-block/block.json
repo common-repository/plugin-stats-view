@@ -1,0 +1,37 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "plugin-stats-view/paview-block",
+  "title": "Multi Plugins",
+  "category": "plugin-stats-view",
+  "icon": "format-gallery",
+  "description": "The stats of plugin is displayed.",
+  "keywords": [
+    "plugin",
+    "stats"
+  ],
+  "version": "1.0.5",
+  "textdomain": "plugin-stats-view",
+  "attributes": {
+    "slug": {
+      "type": "string",
+      "default": null
+    },
+    "link": {
+      "type": "string",
+      "default": null
+    },
+    "totalonly": {
+      "type": "boolean",
+      "default": false
+    }
+  },
+  "supports": {
+    "customClassName": false,
+    "className": false,
+    "html": false
+  },
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

@@ -1,0 +1,41 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "plugin-stats-view/psview-block",
+  "title": "Single Plugin",
+  "category": "plugin-stats-view",
+  "icon": "format-image",
+  "description": "The stats of plugin is displayed.",
+  "keywords": [
+    "plugin",
+    "stats"
+  ],
+  "version": "1.0.4",
+  "textdomain": "plugin-stats-view",
+  "attributes": {
+    "slug": {
+      "type": "string",
+      "default": null
+    },
+    "view": {
+      "type": "string",
+      "default": "normal"
+    },
+    "link": {
+      "type": "string",
+      "default": null
+    },
+    "open": {
+      "type": "boolean",
+      "default": false
+    }
+  },
+  "supports": {
+    "customClassName": false,
+    "className": false,
+    "html": false
+  },
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}
